@@ -29,7 +29,9 @@ More information needed
 
 ## Intended uses & limitations
 
-More information needed
+encoder_max_length = 1024
+  
+decoder_max_length = 512
 
 ## Training and evaluation data
 
