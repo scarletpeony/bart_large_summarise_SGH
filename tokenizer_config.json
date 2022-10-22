@@ -43,6 +43,7 @@
     "rstrip": false,
     "single_word": false
   },
+  "padding": "encoder_max_length",
   "sep_token": {
     "__type": "AddedToken",
     "content": "</s>",
@@ -53,6 +54,7 @@
   },
   "special_tokens_map_file": null,
   "tokenizer_class": "BartTokenizer",
+  "truncation": "only_first",
   "unk_token": {
     "__type": "AddedToken",
     "content": "<unk>",
