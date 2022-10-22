@@ -16,12 +16,12 @@ should probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) on the None dataset.
 It achieves the following results on the evaluation set:
-- Loss: 2.7952
-- Rouge1: 50.8884
-- Rouge2: 33.6037
-- Rougel: 38.0047
-- Rougelsum: 46.6575
-- Gen Len: 139.4545
+- Loss: 2.7935
+- Rouge1: 49.9532
+- Rouge2: 33.9403
+- Rougel: 38.4823
+- Rougelsum: 45.8862
+- Gen Len: 141.1818
 
 ## Model description
 
