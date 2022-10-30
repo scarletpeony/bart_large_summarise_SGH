@@ -9,10 +9,7 @@ model-index:
   results: []
 ---
 
-<!-- This model card has been generated automatically according to the information the Trainer had access to. You
-should probably proofread and complete it, then remove this comment. -->
-
-# bart_large_summarise
+![SGH logo.png](https://s3.amazonaws.com/moonup/production/uploads/1667143139655-631feef1124782a19eff4243.png)
 
 This model is a fine-tuned version of [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) on the None dataset.
 It achieves the following results on the evaluation set:
