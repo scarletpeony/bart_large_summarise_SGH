@@ -26,7 +26,7 @@ This model was created to generate summaries of news articles.
 
 ## Intended uses & limitations
 
-The model takes up to maximum article length of 1024 characters and generates a summary of maximum length of 512 characters.
+The model takes up to maximum article length of 1024 tokens and generates a summary of maximum length of 512 tokens.
 
 ## Training data
 
