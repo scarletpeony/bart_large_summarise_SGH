@@ -17,27 +17,24 @@ should probably proofread and complete it, then remove this comment. -->
 This model is a fine-tuned version of [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) on the None dataset.
 It achieves the following results on the evaluation set:
 - Loss: 2.7389
-- Rouge1: 52.9676
-- Rouge2: 36.0168
-- Rougel: 39.6093
-- Rougelsum: 48.2053
+- Rouge1: 0.5297
+- Rouge2: 0.3602
+- Rougel: 0.3961
+- Rougelsum: 0.4821
 - Gen Len: 137.9091
 
 ## Model description
 
-More information needed
+This model was created to generate summaries of news articles.
 
 ## Intended uses & limitations
 
-encoder_max_length = 1024
-  
-decoder_max_length = 512
+The model takes up to maximum article length of 1024 characters and generates a summary of maximum length of 512 characters.
 
 ## Training and evaluation data
 
-More information needed
+This model was trained on 100+ articles and summaries from SGH.
 
-## Training procedure
 
 ### Training hyperparameters
 
@@ -51,10 +48,6 @@ The following hyperparameters were used during training:
 - lr_scheduler_warmup_steps: 500
 - num_epochs: 10
 - label_smoothing_factor: 0.1
-
-### Training results
-
-
 
 ### Framework versions
 
