@@ -11,7 +11,7 @@ model-index:
 
 ![SGH logo.png](https://s3.amazonaws.com/moonup/production/uploads/1667143139655-631feef1124782a19eff4243.png)
 
-This model is a fine-tuned version of [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) on the None dataset.
+This model is a fine-tuned version of [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) on the SGH news articles and summaries dataset.
 It achieves the following results on the evaluation set:
 - Loss: 2.7389
 - Rouge1: 0.5297
@@ -28,7 +28,7 @@ This model was created to generate summaries of news articles.
 
 The model takes up to maximum article length of 1024 characters and generates a summary of maximum length of 512 characters.
 
-## Training and evaluation data
+## Training data
 
 This model was trained on 100+ articles and summaries from SGH.
 
